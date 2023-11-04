@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/mainBg">
+
+    <TextView
+        android:id="@+id/main_header_tvSolar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:gravity="center"
+        android:padding="3dp"
+        android:text="公历2020年4月20日 星期一(阳历)"/>
+
+    <TextView
+        android:id="@+id/main_header_tvDay"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textSize="80sp"
+        android:gravity="center"
+        android:textColor="@color/fireRed"
+        android:text="20"/>
+
+    <TextView
+        android:id="@+id/main_header_tvWeek"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textSize="26sp"
+        android:gravity="center"
+        android:textColor="@color/fireRed"
+        android:text="星期一"/>
+
+    <TextView
+        android:id="@+id/main_header_tvLunar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:gravity="center"
+        android:padding="3dp"
+        android:layout_marginTop="10dp"
+        android:text="农历***********"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_margin="20dp"
+        android:padding="10dp"
+        android:background="@drawable/header_bg">
+
+        <TextView
+            android:id="@+id/main_header_tvBaiJi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:textSize="14sp"
+            android:text="彭祖百忌:"/>
+        <TextView
+            android:id="@+id/main_header_tvWuXin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="14sp"
+            android:text="五行:"/>
+        <TextView
+            android:id="@+id/main_header_tvChongSha"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:textSize="14sp"
+            android:text="冲煞:"/>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/fireRed"/>
+
+        <TextView
+            android:id="@+id/main_header_tvJiShen"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:textSize="14sp"
+            android:text="吉神趋益:"/>
+        <TextView
+            android:id="@+id/main_header_tvXiongShen"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:textSize="14sp"
+            android:text="凶神趋忌:"/>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/fireRed"/>
+
+        <TextView
+            android:id="@+id/main_header_tvYi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:textSize="14sp"
+            android:text="宜:"/>
+        <TextView
+            android:id="@+id/main_header_tvJi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:textSize="14sp"
+            android:text="忌:"/>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/main_header_tvHistory"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_marginLeft="20dp"
+        android:text="历史上的今天"/>
+
+</LinearLayout>
